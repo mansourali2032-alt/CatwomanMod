@@ -1,17 +1,20 @@
+using System;
 
+namespace CatwomanMod
+{
+    public class Mod
+    {
+        public static void Load()
+        {
+            // هذي نقطة البداية للمود
+            Console.WriteLine("Catwoman Mod is ready!");
+        }
+    }
+}
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>latest</LangVersion>
-    <AssemblyName>CatwomanMod</AssemblyName>
   </PropertyGroup>
-
-  <ItemGroup>
-    </ItemGroup>
-
 </Project>
-
